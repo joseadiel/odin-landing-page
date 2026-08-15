@@ -4,10 +4,11 @@
     padding: 0;
 }
 
-/* header  */
+/* header */
 
 .header {
     background-color: #1F2937;
+    color: #F9FAF8;
     display: flex;
     padding: 14px;
     justify-content: space-around;
@@ -15,12 +16,11 @@
     flex-wrap: wrap;
 }
 
-h1 {
+.logo {
     font-size: 24px;
-    color: #F9FAF8;
 }
 
-.links-list {
+.links {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -30,4 +30,47 @@ h1 {
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+/* hero */
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 80px 200px 80px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.hero-text {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    max-width: 575px;
+    gap: 10px;
+}
+
+.hero-head {
+    font-size: 48px;
+}
+
+.hero-paragraph {
+    font-size: 18px;
+}
+
+.hero-btn {
+    background-color: #3882F6;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 28px 8px 28px;
+    color: #F9FAF8;
+}
+
+.hero-image {
+    background-color: #6d747d;
+    padding: 100px 125px 100px 125px;
 }
