@@ -140,3 +140,41 @@ a {
     color: black;
     padding-left: 618px;
 }
+
+/* call to action */
+
+.cta {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px 170px 50px 170px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+.cta-head {
+    font-size: 22px;
+}
+
+.cta-paragraph {
+    font-size: 14px;
+}
+
+.cta-btn {
+    background-color: #3882F6;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 28px 8px 28px;
+    color: #F9FAF8;
+}
