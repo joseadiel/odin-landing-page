@@ -54,10 +54,12 @@ a {
 
 .hero-head {
     font-size: 48px;
+    max-width: 500px;
 }
 
 .hero-paragraph {
     font-size: 18px;
+    max-width: 460px;
 }
 
 .hero-btn {
@@ -72,7 +74,11 @@ a {
 
 .hero-image {
     background-color: #6d747d;
-    padding: 100px 125px 100px 125px;
+    padding: 110px 125px 110px 125px;
+}
+
+.hero-message {
+    font-size: 18px;
 }
 
 /* info */
@@ -154,11 +160,11 @@ a {
 .cta-box {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 50px 170px 50px 170px;
+    padding: 50px 180px 50px 180px;
     border-radius: 12px;
     display: flex;
     justify-content: space-between;
-    gap: 55px;
+    gap: 120px;
 }
 
 .cta-head {
@@ -171,11 +177,11 @@ a {
 
 .cta-btn {
     background-color: #3882F6;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: bold;
     border: 2px solid #F9FAF8;
     border-radius: 8px;
-    padding: 8px 28px 8px 28px;
+    padding: 8px 32px 8px 32px;
     color: #F9FAF8;
 }
 
@@ -187,7 +193,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 28px;
+    padding: 18px;
 }
 
 .footer-paragraph {
